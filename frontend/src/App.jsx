@@ -1,7 +1,7 @@
 import { useEffect, useState, useCallback, useMemo } from "react";
 import "./App.css";
 
-const API = "http://localhost:5000";
+const API = "https://water-level-indicator-cgsy.onrender.com";
 
 export default function App() {
   const [data, setData] = useState(null);
